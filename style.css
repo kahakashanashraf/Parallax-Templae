@@ -1,0 +1,8 @@
+.initial-brightness {
+    filter: brightness(10%);
+    transition: filter 0.3s ease-in-out;
+}
+
+.initial-brightness:hover {
+    filter: brightness(100%);
+}
