@@ -1,8 +1,31 @@
 .initial-brightness {
-    filter: brightness(10%);
+    filter: brightness(40%);
     transition: filter 0.3s ease-in-out;
 }
 
 .initial-brightness:hover {
     filter: brightness(100%);
+}
+
+
+/* footer*/
+
+.footer-bg-hover:hover {
+    background-color: #040404 !important;
+    transition: filter 0.3s ease-in-out;
+}
+
+.btn-bg-hover:hover {
+    background-color: #c4c7cc !important;
+    transition: filter 0.3s ease-in-out;
+}
+
+.icon-hover:hover {
+    color: #c4c7cc !important;
+    transition: filter 0.3s ease-in-out;
+}
+
+.link-hover:hover {
+    color: #124a08 !important;
+    transition: filter 0.3s ease-in-out;
 }
